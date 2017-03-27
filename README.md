@@ -1,5 +1,4 @@
-# cathy93.github.io
-<<<<<<< HEAD
+
 #My portfolio Website
 
 ##Aim and Target Audience
