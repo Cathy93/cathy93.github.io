@@ -1,7 +1,15 @@
 # cathy93.github.io
+<<<<<<< HEAD
 ###My portfolio Website
 
 ##Aim and Target Audience
+=======
+My portfolio website
+https://cathy93.github.io
+
+
+AIM AND TARGET AUDIENCE
+>>>>>>> origin/master
 
 My aim when we first started this project was to create a website that truly reflected my personality. It was to be a one pager and it was to be fun, bright and interesting.
 
