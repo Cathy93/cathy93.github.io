@@ -1,300 +1,219 @@
 body {
-  color: black;
   margin: 0;
-  font-family: 'Abel', sans-serif;
-  font-size: 1.5em; /*-----16px-----*/
-  line-height: 1.4;
+  background: black;
 }
-
-h1 {
-  font-family: 'Cookie' cursive;
-  font-size: 100px;
-  color: white;
-  line-height: 1.3;
-  margin: 0;
-  padding-top:5rem;
-}
-
 h2 {
-  font-family: 'Abel', sans-serif;
-  font-size: 40px;
-  margin-top: 10px;
-}
-
-
-h3 {
-  font-family: 'Abel', sans-serif;
-  font-size: 40px;
-  margin-bottom: 20px;
-  /*color:*/
-}
-
-h4 {
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-li {
-  display: inline-block;
-  padding: 0 12px;
-  border-right: solid 1px;
-}
-
-img {
-  max-width: 100%;
-}
-
-/*-----ID SELECTORS-----*/
-#main-footer {
-  border-top: solid black 1px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 20px;
-  margin-left: 20px;
-  font-family: 'Abel', sans-serif;
-  font-size: 16px;
   text-align: center;
 }
-
-/*-----CLASS SELECTORS-----*/
-.main-header {
-  background-color: #424242; /*-----THIS MAKES OUR HEADER BACKGROUND #424242-----*/
-  margin-bottom: 0;
-  height: 560px;
-  background-image: url('images/denise-chan-21350.png');
+.pageone {
+  background: black;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-bottom: solid black 8px;
+  height: 100vh;
+  width:100vw;
 }
 
-.main-header h2{
-  color:white;
-  margin:0.1rem;
-  font-weight: bold;
-}
-.main-header h3{
-  color: white;
-  font-size: 1rem;
-}
-.title {
-  color: white;
-  font-size: 26px;
-  text-decoration: underline;
+.icons {
+left: 0vw;}
+
+.icons ul {
+  list-style-type: none;
+  margin-right: 0vw;
+  margin-top: 50vh;
+  position: fixed;
+  right: 20px;
+  line-height: 2;
+  z-index: 1;
 }
 
-.main-header,
-.primary-content,
-.firstdary-content,
-.secondary-content {
+.icons ul li {
+  line-height: 2;
+}
+
+/*sizing icons on page 1*/
+.iconsize {
+  overflow: hidden;
+  height: 6vh;
+  width: auto;
+}
+
+.pageone img{
+  width:70vw;
+  margin-top: 1rem;
+  margin-left:1.5rem;
+}
+.pageone li{
+  padding-top: 2vh;
+  list-style-type: none;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 2.5vh;
+  margin-right:2%;
+  line-height: 2;
+  width:70%;
+  margin-top: 1rem;
+  color: white;
+}
+.pagetwo {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Abel', sans-serif;
+  color: white;
+}
+.pagetwo h2{
+  font-family: 'Abel', sans-serif;
+  color: white;
+}
+
+.pagetwo img {
+  width: 20vw; height: 20vw;
+    float: left;
+    margin-right:1rem;
+    margin-left:2rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    margin-top: 8%;
+    display:flex;
+    align-items: center;
+}
+.pagetwo p{
+width: 80vw;
+line-height: 1;
+margin-bottom: 2rem;
+margin-right: 1.5rem;
+text-align: right;
+}
+
+.pagethree {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Abel', sans-serif;
+  color: white;
   text-align: center;
 }
 
-.t-border {
-  /*border-top: 10px solid black;*/
-}
-
-.arrow {
-  width: 50px;
-  padding-top: 100px;
+.pagethree h2{
 
 }
 
-.arrow:hover {
-  opacity: 0.4;
+.pagethree p{
+width: 65vw;
+text-align: center;
+margin: 0 auto;
+line-height: 1.4;
 }
 
-.credit {
-  opacity: 0.01;
+.contact {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  text-align: center;
 }
-
-
-/*-----PSEUDO CLASSES-----*/
-a:link {
-  color: orange;
-  text-decoration: none;
-}
-
-a:visited {
-  color: lightblue;
-}
-
-a:hover {
-  color: grey;
-}
-
-a:active {
-  color: lightcoral;
-}
-
-/*-----LAYOUT STYLES-----*/
-.primary-content,
-.firstdary-content,
-.secondary-content {
-  width: 100%;;
-  margin: auto;
+.container {
+    border-radius: 5px;
+    /*padding: 20px;*/
+    width: 60vw;
+    margin: 0 auto;
+  }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 0.3rem; /* Some padding */
+    border: 0.2rem solid #F6546A;; /* Gray border */
+    border-radius: 2rem; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    /*margin-bottom: 16px; /* Bottom margin */*/
 
 }
 
-.primary-content {
-  color: black;
-  background-color:#FEC102 ;
-  height: 600px;
-  padding: 50px;
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #F6546A;;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
 }
 
-.firstdary-content {
-  color: black;
-  background-color: #white;
-  height: 700px;
-  border-top: solid grey 1px;
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #F6548A;;
+}
+@media screen and (min-width: 768px){
+  body{
+    margin-left: 1rem;
+    margin-right:2rem;
+  }
+  h2 {
+    font-size: 5rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1.8rem;
+    line-height:1.5rem;
+    text-align: center;
+  }
+  .pagethree p{
+    width:70vw;
+
+  }
+  .icons ul {
+    margin-right: 4vw;
+    margin-top: 60vh;
+  }
+
+  form {
+    font-size: 2rem;
+  }
+input[type=submit] {
+  font-size: 2rem;
 }
 
-.secondary-content {
-  border-top: solid grey 1px;
 
-}
-.try {
-  /*float: left;*/
-}
-
-/*-----Floated Columns-----*/
-
-/*.profile,
-.profile-photo {
-  width: 46.5%;
-}*/
-
-.profile {
-  width: 70%;
-  float: left;
-}
-
-
-
-.icon-bar {
-  width: 17.5%;
-  float: right;
-  margin-top: 80px;
-  margin-left: 760px;
-}
-
-/*----------*/
+@media screen and (min-width:1024px){
 body {
-	color: #333;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+
+}
+.pageone img{
+  width: 40vw;
+  height: 40vh;
+  margin-bottom: 2rem;
+}
+.pageone li {
+  font-size: 2rem;
 }
 h2 {
-	margin: 60px 15px 0;
-	padding: 0;
-	font-weight: 300;
-  text-align: center;
+  font-size: 4rem;
+}
+h3 {
+  font-size: 2.5rem;
+  text-align: right;
+  margin-right: 3rem;
+  width:70vw;
+}
+p {
+  font-size: 1.5rem;
 }
 
-.column {
-	margin: 15px 15px 0;
-	padding: 0;
+.pagetwo img {
+  height: 20vh;
+  width:15vw;
+  margin-top: 1rem;
 }
-
-
-.column div {
-	position: relative;
-	float: left;
-	width: 300px;
-	height: 200px;
-	margin: 60px 0 0 25px;
-	padding: 0;
-}
-
-.column div span {
-	position: absolute;
-	bottom: -20px;
-	left: 0;
-	z-index: -1;
-	display: block;
-	width: 300px;
-	margin: 0;
-	padding: 0;
-	color: #444;
-	font-size: 18px;
-	text-decoration: none;
-	text-align: center;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	opacity: 0;
-}
-figure {
-	width: 300px;
-	height: 200px;
-	margin: 0;
-	padding: 0;
-
-
-	overflow: hidden;
-}
-figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
-}
-
-.opacity:hover {
-  opacity: 0.75;
-}
-.secondary-content {
-  background-color:#3DA6AE;
-}
-
-/*-----Media Queries-----*/
-
-@media (max-width: 1400px) {
-  .primary-content,
-  .first-content {
-    width: 90%;
+  .pagetwo br {
+    line-height: 2.5rem;
   }
-
-  .secondary-content {
-    border-top: solid grey 1px;
-    margin-top: 300px;
-
+  .pagetwo p{
+    width:70vw;
+    text-align: right;
   }
-}
-
-
-@media (max-width: 1100px) {
-  .primary-content,
-  .first-content {
-    width: 90%;
+  .pagethree p{
+    line-height: 4rem;
   }
-
-  .secondary-content {
-    border-top: solid grey 1px;
-    margin-top: 600px;
-
-  }
-}
-
-@media (max-width: 800) {
-  .primary-content,
-  .first-content {
-    width: 90%;
-  }
-
-  .secondary-content {
-    border-top: solid grey 1px;
-    margin-top: 1400px;
-
-  }
-}
-
-@media (max-width: 600) {
-  .primary-content,
-  .firstdary-content {
-    width: 90%;
-  }
-
-  .first-content {
-
-
-  }
-}
