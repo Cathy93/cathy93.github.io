@@ -9,7 +9,7 @@ ol, ul {
 
 
 #logo img {
-  width: 60px;
+  width: 8rem;
   position:absolute;
   top: 0px;
   padding: 0;
@@ -31,20 +31,23 @@ nav a{
   display: inline-block;
   color: #ffffff;
   padding:5px;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 .icons {
-left: 0vw;}
+left: 0vw;
+}
 
 .icons ul {
   list-style-type: none;
   margin-right: 0vw;
   margin-top: 50vh;
-  position: absolute;
+  position: fixed;
   right: 20px;
   line-height: 2;
   z-index: 1;
+
 }
 
 .icons ul li {
@@ -67,13 +70,15 @@ left: 0vw;}
   align-items: center;
   z-index: 2
 }
-
+header {
+  margin-top: 6rem;
+}
 header p{
   font-family: 'abel', sans-serif;
   color:white;
-  font-size: 16px;
+  font-size: 1.5rem;
   letter-spacing: 2px;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 .about {
   width: 70%;
@@ -91,7 +96,6 @@ header p{
 }
 
 .skills {
-  height: 100vh;
   width:100vw;
   background: black;
 
@@ -183,7 +187,7 @@ i{
 input[type=text], input[type=email], select, textarea {
     width: 100%; /* Full width */
     padding: 0.3rem; /* Some padding */
-    border: 0.5rem solid #F6546A;; /* Gray border */
+    border: 0.5rem solid #FF1493; /* Gray border */
     border-radius: 2rem; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
